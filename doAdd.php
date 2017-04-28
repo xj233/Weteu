@@ -1,5 +1,5 @@
 <?php header("Content-type:text/html;charset=utf-8");?>
-<?php include("common/header.php"); ?>
+<?php include("./common/header.php"); ?>
 <center>
 <h3>添加留言</h3>
 <?php
@@ -22,8 +22,8 @@ echo "</br>";
 echo "留言成功！";
 
  ?>
-     <a href='index.php' class="btn btn-primary">返回 :)</a>
+     <a href='index.php' class="btn btn-primary">返回留言列表页</a>
 </center>
 
 
-<?php include("common/footer.php"); ?>
+<?php include("./common/footer.php"); ?>

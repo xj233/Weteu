@@ -1,5 +1,5 @@
 <?php header("Content-type:text/html;charset=utf-8");?>
-<?php include("common/header.php"); ?>
+<?php include("./common/header.php"); ?>
 <center>
 <?php
 // 允许上传的图片后缀
@@ -39,9 +39,9 @@ if ((($_FILES["file"]["type"] == "image/gif")
 }
 else
 {
-	echo "非法的文件格式";
+	echo "非法的文件格式！<p>请重新上传<br>(৹ᵒ̴̶̷᷄́ฅᵒ̴̶̷᷅৹)呜呜呜";
 }
 ?>
 </center>
 
-<?php include("common/footer.php"); ?>
+<?php include("./common/footer.php"); ?>

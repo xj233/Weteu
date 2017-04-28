@@ -1,5 +1,5 @@
 <?php header("Content-type:text/html;charset=utf-8");?>
-<?php include("common/header.php"); ?>
+<?php include("./common/header.php"); ?>
 <center>
 	<div class="alert alert-warning">
 	<a class="close" data-dismiss="alert">
@@ -14,8 +14,8 @@
 <table class="table">
 	<thead>
 		<tr>
-			<th>微题</th>
-			<th>V名</th>
+			<th>微主题</th>
+			<th>留言者</th>
 			<th>微内容</th>
 			<th>时间</th>
 		</tr>
@@ -34,10 +34,17 @@
   foreach($lylist as $k=>$v){
    $ly = explode("##",$v);
    echo "<tr>";
-   echo "<td>{$ly[0]}</td>";
-   echo "<td>{$ly[1]}</td>";
    echo "<td>";
-   var_dump(filter_var($ly[2], FILTER_SANITIZE_STRING));
+   $str0="$ly[0]";
+   echo htmlspecialchars($str0);   
+   echo "</td>";
+   echo "<td>";
+   $str1="$ly[1]";
+   echo htmlspecialchars($str1);
+   echo "</td>";
+   echo "<td>";
+   $str2="$ly[2]";
+   echo htmlspecialchars($str2);
    echo "</td>";
    echo "<td>".date("Y-m-d",$ly[3])."</td>";
  
@@ -76,4 +83,4 @@ echo '<img src="'.$img_folder.$image.'" class="img-responsive" alt="Weteu IMG">'
 </body>
 
 
-<?php include("common/footer.php"); ?>
+<?php include("./common/footer.php"); ?>
