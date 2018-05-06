@@ -15,11 +15,11 @@
 
 同时，可以直接用来制作同学录、表白墙等留言功能。
 
-程序截图
+程序截图/演示
 -
-![Weteus1](https://www.feking.org/img/github/Screenshot_weteu1.png)
+![Weteu](https://www.feking.org/img/sl_webpr/Screenshot_Weteu.jpg)
 
-![Weteus2](https://www.feking.org/img/github/Screenshot_weteu2.png)
+官方演示站：[https://weteu.feking.org](https://weteu.feking.org)
 
 更新日志
 -
