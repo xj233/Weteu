@@ -1,4 +1,4 @@
-# Weteu-吐槽集能器![Weteu](https://www.feking.org/img/logo/clouds_128px_1165463_easyicon.net.png)
+# Weteu-吐槽集能器![Weteu](https://www.ioig.net/img/logo/clouds_128px_1165463_easyicon.net.png)
 
 
 概述
@@ -15,11 +15,9 @@
 
 同时，可以直接用来制作同学录、表白墙等留言功能。
 
-程序截图/演示
+程序演示
 -
-![Weteu](https://www.feking.org/img/sl_webpr/Screenshot_Weteu.jpg)
-
-官方演示站：[https://weteu.feking.org](https://weteu.feking.org)
+官方演示站：[https://weteu.ioig.net](https://weteu.ioig.net)
 
 更新日志
 -
