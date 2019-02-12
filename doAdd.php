@@ -22,7 +22,7 @@ echo "</br>";
 echo "留言成功！";
 
  ?>
-     <a href='index.php' class="btn btn-primary">返回留言列表页</a>
+     <a href='index.php' class="mdui-btn mdui-color-theme-accent mdui-ripple">返回留言列表页</a>
 </center>
 
 

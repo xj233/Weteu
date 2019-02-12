@@ -1,8 +1,10 @@
-<?php header("Content-type:text/html;charset=utf-8");?>
-<?php include("./common/header.php"); ?>
-<center>
 <?php
+
+header("Content-type:text/html;charset=utf-8");
+
+include("./common/header.php"); 
 // 允许上传的图片后缀
+
 $allowedExts = array("gif", "jpeg", "jpg", "png");
 $temp = explode(".", $_FILES["file"]["name"]);
 echo $_FILES["file"]["size"];
@@ -41,7 +43,7 @@ else
 {
 	echo "非法的文件格式！<p>请重新上传<br>(৹ᵒ̴̶̷᷄́ฅᵒ̴̶̷᷅৹)呜呜呜";
 }
-?>
-</center>
 
-<?php include("./common/footer.php"); ?>
+include("./common/footer.php");
+
+?>

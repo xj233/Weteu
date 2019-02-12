@@ -1,17 +1,12 @@
-<?php header("Content-type:text/html;charset=utf-8");?>
-<?php include("./common/header.php"); ?>
-<center>
-	<div class="alert alert-warning">
-	<a class="close" data-dismiss="alert">
-	&times;
-	</a>
-	<strong>公告</strong>   欢迎使用吐槽集能器
-</div>
+<?php 
 
-</center>
-<center>
-<div class="table-responsive">
-<table class="table">
+header("Content-type:text/html;charset=utf-8");
+
+include("./common/header.php"); 
+
+?>
+<div class="mdui-table-fluid">
+  <table class="mdui-table">
 	<thead>
 		<tr>
 			<th>微主题</th>
@@ -20,6 +15,8 @@
 			<th>时间</th>
 		</tr>
 	</thead>
+
+
 <?php
   // 获取留言信息，解析后输出到表格中
 // 1.从留言liuyan.txt中获取留言信息
@@ -52,9 +49,8 @@
   }
    
 ?>
-</table>
+  </table>
 </div>
-</center>
 <center>
 <div>
 <?php
@@ -80,7 +76,4 @@ echo '<img src="'.$img_folder.$image.'" class="img-responsive" alt="Weteu IMG">'
 ?>
 </div>
 </center>
-</body>
-
-
 <?php include("./common/footer.php"); ?>
