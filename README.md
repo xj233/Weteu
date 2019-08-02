@@ -17,9 +17,9 @@
 
 程序展示
 -
-![WeteuIMG](https://www.feking.cc/img/app/weteu.jpg "吐槽集能器首页")
+![WeteuIMG](https://www.feking.co/img/app/weteu.jpg "吐槽集能器首页")
 
-![WeteuIMG](https://www.feking.cc/img/app/weteu2.jpg "吐槽集能器上传页")
+![WeteuIMG](https://www.feking.co/img/app/weteu2.jpg "吐槽集能器上传页")
 
 更新日志
 -
