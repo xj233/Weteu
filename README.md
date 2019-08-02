@@ -15,7 +15,7 @@
 
 同时，可以直接用来制作同学录、表白墙等留言功能。
 
-程序展示示
+程序展示
 -
 ![WeteuIMG](https://www.feking.cc/img/app/weteu.jpg "吐槽集能器首页")
 
