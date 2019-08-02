@@ -1,4 +1,4 @@
-# Weteu-吐槽集能器![Weteu](https://www.feking.cc/img/logo/clouds_128px_1165463_easyicon.net.png)
+# Weteu-吐槽集能器![Weteu](https://www.feking.co/img/logo/clouds_128px_1165463_easyicon.net.png)
 
 
 概述
